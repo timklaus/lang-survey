@@ -2,6 +2,11 @@
   display: none;
 }
 
+.imagesize {
+  max-width: 450px;
+  height: auto;
+}
+
 .verticalspacer {
   height: 25px;
 }

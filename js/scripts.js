@@ -15,7 +15,6 @@ $(document).ready(function() {
     console.log("Your current Python Score is:  " + pythonScore);
     console.log("Your current Ruby score is:  " + rubyScore);
     
-// debugger
     //This branching will determine results based on scores
     if (jsScore >= pythonScore && jsScore>= rubyScore) {
       $("#RonJavascript").show();

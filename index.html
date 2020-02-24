@@ -15,94 +15,100 @@
   <div class="verticalspacer">
   </div>
   <div class="container">
-    <h3>How much do you agree with the following statements?</h3>
-      <form id="survey">
-        <div class="form group">
-          <p>The only person you can rely on is yourself.</p>
-          <select id="js-independant">
-            <option value="1">Not like me at all.</option>
-            <option value="2">Rarely like me.</option>
-            <option value="3">I have no opinion about that statement.</option>
-            <option value="4">Somewhat like me.</option>
-            <option value="5">Definitely like me.</option>
-          </select>
+    <div class="row">
+      <div class="col-md-8">
+        <h3>How much do you agree with the following statements?</h3>
+        <form id="survey">
+          <div class="form group">
+            <p>The only person you can rely on is yourself.</p>
+            <select id="js-independant">
+              <option value="1">Not like me at all.</option>
+              <option value="2">Rarely like me.</option>
+              <option value="3">I have no opinion about that statement.</option>
+              <option value="4">Somewhat like me.</option>
+              <option value="5">Definitely like me.</option>
+            </select>
+          </div>
+          <div class="verticalspacer">
+          </div>
+          <div class="form group">
+            <p>I am often described as fancy or elegant.</p>
+            <select id="python-elegant">
+              <option value="1">Not like me at all.</option>
+              <option value="2">Rarely like me.</option>
+              <option value="3">I have no opinion about that statement.</option>
+              <option value="4">Somewhat like me.</option>
+              <option value="5">Definitely like me.</option>
+            </select>
+          </div>
+          <div class="verticalspacer">
+          </div>
+          <div class="form group">
+            <p>I find starting new projects easy and exciting.</p>
+            <select id="ruby-start">
+              <option value="1">Not like me at all.</option>
+              <option value="2">Rarely like me.</option>
+              <option value="3">I have no opinion about that statement.</option>
+              <option value="4">Somewhat like me.</option>
+              <option value="5">Definitely like me.</option>
+            </select>
+          </div>
+          <div class="verticalspacer">
+          </div>
+          <div class="form group">
+            <p>I usually have a good way of organizing things, but I can easily become disorganized and find it hard to get back on track.</p>
+            <select id="js-organize">
+              <option value="1">Not like me at all.</option>
+              <option value="2">Rarely like me.</option>
+              <option value="3">I have no opinion about that statement.</option>
+              <option value="4">Somewhat like me.</option>
+              <option value="5">Definitely like me.</option>
+            </select>
+          </div>  
+          <div class="verticalspacer">
+          </div>
+          <div class="form group">
+            <p>I believe that clear and thorough communication is the key to preventing misunderstandings.</p>
+            <select id="python-comm">
+              <option value="1">Not like me at all.</option>
+              <option value="2">Rarely like me.</option>
+              <option value="3">I have no opinion about that statement.</option>
+              <option value="4">Somewhat like me.</option>
+              <option value="5">Definitely like me.</option>
+            </select>
+          </div>  
+          <div class="verticalspacer">
+          </div>
+          <div class="form group">
+            <p>I find that the way I do things works even though I cannot clearly explain what I'm doing or why I'm doing it.</p>
+            <select id="ruby-magic">
+              <option value="1">Not like me at all.</option>
+              <option value="2">Rarely like me.</option>
+              <option value="3">I have no opinion about that statement.</option>
+              <option value="4">Somewhat like me.</option>
+              <option value="5">Definitely like me.</option>
+            </select>
+          </div>  
+          <div class="verticalspacer">
+          </div>
+          <button type="submit" class="btn">Let's get coding!</button>
+        </form>
+      </div>
+        <div class="col-md-4">
+          <div class="hidden" id="RonJavascript">
+            <H2>You are Javascript!</H2>
+            <img class="imagesize" src="img/javascript.jpg" alt="You are Javascript">
+          </div>
+          <div class="hidden" id="TomPython">
+            <H2>You are Python!</H2>
+            <img class="imagesize" src="img/python.jpg" alt="You are Python">
+          </div>
+          <div  class="hidden" id="BenRuby">
+            <H2>You are Ruby!</H2>
+            <img class ="imagesize" src="img/ruby.jpg" alt="You are Ruby">
+          </div>
         </div>
-        <div class="verticalspacer">
-        </div>
-        <div class="form group">
-          <p>I am often described as fancy or elegant.</p>
-          <select id="python-elegant">
-            <option value="1">Not like me at all.</option>
-            <option value="2">Rarely like me.</option>
-            <option value="3">I have no opinion about that statement.</option>
-            <option value="4">Somewhat like me.</option>
-            <option value="5">Definitely like me.</option>
-          </select>
-        </div>
-        <div class="verticalspacer">
-        </div>
-        <div class="form group">
-          <p>I find starting new projects easy and exciting.</p>
-          <select id="ruby-start">
-            <option value="1">Not like me at all.</option>
-            <option value="2">Rarely like me.</option>
-            <option value="3">I have no opinion about that statement.</option>
-            <option value="4">Somewhat like me.</option>
-            <option value="5">Definitely like me.</option>
-          </select>
-        </div>
-        <div class="verticalspacer">
-        </div>
-        <div class="form group">
-          <p>I usually have a good way of organizing things, but I can easily become disorganized and find it hard to get back on track.</p>
-          <select id="js-organize">
-            <option value="1">Not like me at all.</option>
-            <option value="2">Rarely like me.</option>
-            <option value="3">I have no opinion about that statement.</option>
-            <option value="4">Somewhat like me.</option>
-            <option value="5">Definitely like me.</option>
-          </select>
-        </div>  
-        <div class="verticalspacer">
-        </div>
-        <div class="form group">
-          <p>I believe that clear and thorough communication is the key to preventing misunderstandings.</p>
-          <select id="python-comm">
-            <option value="1">Not like me at all.</option>
-            <option value="2">Rarely like me.</option>
-            <option value="3">I have no opinion about that statement.</option>
-            <option value="4">Somewhat like me.</option>
-            <option value="5">Definitely like me.</option>
-          </select>
-        </div>  
-        <div class="verticalspacer">
-        </div>
-        <div class="form group">
-          <p>I find that the way I do things works even though I cannot clearly explain what I'm doing or why I'm doing it.</p>
-          <select id="ruby-magic">
-            <option value="1">Not like me at all.</option>
-            <option value="2">Rarely like me.</option>
-            <option value="3">I have no opinion about that statement.</option>
-            <option value="4">Somewhat like me.</option>
-            <option value="5">Definitely like me.</option>
-          </select>
-        </div>  
-        <div class="verticalspacer">
-        </div>
-        <button type="submit" class="btn">Let's get coding!</button>
-    </form>
-    <div class="hidden" id="RonJavascript">
-      <H2>You are Javascript!</H2>
-      <img src="img/javascript.jpg" alt="You are Javascript">
+      </div>
     </div>
-    <div class="hidden" id="TomPython">
-      <H2>You are Python!</H2>
-      <img src="img/python.jpg" alt="You are Python">
-    </div>
-    <div  class="hidden" id="BenRuby">
-      <H2>You are Ruby!</H2>
-      <img src="img/ruby.jpg" alt="You are Ruby">
-    </div>
-  </div>
-</body>
-</html>
+  </body>
+  </html>
