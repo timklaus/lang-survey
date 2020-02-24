@@ -2,23 +2,25 @@
 <html>
 <head>
   <title>What coding language are you?</title>
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">    
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">    
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="jumbotron">
-    <h1>What coding language are you?</h1>
-    <sub>Answer some questions on this survey to figure out if you more closely resemble the characteristics of Python, Javascript, or Ruby.</sub>
+  <div class="jumbotronModify">
+    <h1 class="headline">What coding language are you?</h1>
+    <sub class="subheadline">Answer some questions on this survey to figure out if you more closely resemble the characteristics of Python, Javascript, or Ruby.</sub>
   </div>
   <div class="verticalspacer">
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-lg-8" class="box">
         <h3>How much do you agree with the following statements?</h3>
-        <form id="survey">
+        <form class="box" id="survey">
           <div class="form group">
             <p>The only person you can rely on is yourself.</p>
             <select id="js-independant">
@@ -94,18 +96,24 @@
           <button type="submit" class="btn">Let's get coding!</button>
         </form>
       </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="hidden" id="RonJavascript">
-            <H2>You are Javascript!</H2>
-            <img class="imagesize" src="img/javascript.jpg" alt="You are Javascript">
+            <div class="box">
+              <H2>You are Javascript!</H2>
+              <img class="imagesize" src="img/javascript.jpg" alt="You are Javascript">
+            </div>
           </div>
           <div class="hidden" id="TomPython">
-            <H2>You are Python!</H2>
-            <img class="imagesize" src="img/python.jpg" alt="You are Python">
+            <div class="box">
+              <H2>You are Python!</H2>
+              <img class="imagesize" src="img/python.jpg" alt="You are Python">
+            </div>
           </div>
-          <div  class="hidden" id="BenRuby">
-            <H2>You are Ruby!</H2>
-            <img class ="imagesize" src="img/ruby.jpg" alt="You are Ruby">
+          <div class="hidden" id="BenRuby">
+            <div class ="box">
+              <H2>You are Ruby!</H2>
+              <img class ="imagesize" src="img/ruby.jpg" alt="You are Ruby">
+            </div>
           </div>
         </div>
       </div>
