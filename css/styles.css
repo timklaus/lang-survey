@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .verticalspacer {
   height: 25px;
 }

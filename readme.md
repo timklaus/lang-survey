@@ -24,9 +24,9 @@ _Reach out to tjklaus91@gmail.com for all questions and concerns_
 
 ## Technologies Used
 
-_Visual Studio Code_
-_Javascript_
-_Jquery_  
+_Visual Studio Code_  
+_Javascript_  
+_Jquery_    
 _HTML_  
 _CSS_  
 _Bootstrap_
