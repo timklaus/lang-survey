@@ -39,6 +39,27 @@ p {
   font-family: 'Roboto Slab';
 }
 
+.agree {
+  font-weight: bolder;
+  color: #324f32 !important;
+}
+
+.getCoding {
+  width: 250px;
+  height: 55px;
+  background-color: #324f32;
+  font-family: 'Abril Fatface';
+  font-size: 25px;
+  color: #ffde69;
+  border-radius: .3rem; 
+}
+
+.result {
+  background-color: #324f32;
+  color: #ffde69;
+  border-radius: 1rem;
+}
+
 .imagesize {
   max-width: 450px;
   height: auto;
@@ -57,6 +78,6 @@ p {
   height: 25px;
 }
 
-.imgtest {
-  object-fit: contain;
+.alignright {
+  align-items: right;
 }
