@@ -6,6 +6,10 @@ h3 {
   font-family: 'Roboto Slab';
 }
 
+h2 {
+  font-family: 'Abril Fatface';
+}
+
 p {
   font-family: 'Roboto Slab';
 }
@@ -38,6 +42,7 @@ p {
 .imagesize {
   max-width: 450px;
   height: auto;
+  object-fit: cover;
 }
 
 .box {
@@ -50,4 +55,8 @@ p {
 
 .verticalspacer {
   height: 25px;
+}
+
+.imgtest {
+  object-fit: contain;
 }
