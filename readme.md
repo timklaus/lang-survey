@@ -1,5 +1,5 @@
 # _Tim Klaus' Programming Language Quiz_
-[timklaus.github.io/lang-survey](timklaus.github.io/lang-survey)
+[https://timklaus.github.io/lang-survey/](https://timklaus.github.io/lang-survey/)
 
 #### _*Week 7 Intro To Programming (Evening) individual project submission*, *February 24, 2020*_
 
